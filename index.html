@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard - Brand</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css">
+    <link rel="stylesheet" href="/assets//css/style.css">
+    <script
+      src="https://kit.fontawesome.com/745c0ac10a.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+
+<body id="page-top">
+    <!-- Start: Navbar Centered Links -->
+    <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-white bg-gradient py-3">
+        <div class="container-fluid"><a class="navbar-brand d-flex align-items-center" href="#">
+                <span>Burger Star</span></a><button data-bs-toggle="collapse" class="navbar-toggler"
+                data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-3">
+                <ul class="navbar-nav mx-auto" style="font-size: 18px;">
+                    <li class="nav-item">
+                        <a class="nav-link active link-primary" href="#"
+                            style="color: var(--bs-navbar-brand-color);">
+                            <i class="fas fa-home"></i>Home</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-burger"></i> Edit Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-circle-user"></i> Daftar Customer</a></li>
+                    <li class="nav-item disabled"><a class="nav-link disabled" href="#"><i class="fa-solid fa-fire-flame-curved"></i> Rekomendasi</a></li>
+                </ul><button class="btn btn-primary" type="button">Logout</button>
+            </div>
+        </div>
+    </nav><!-- End: Navbar Centered Links -->
+    <div id="wrapper" style="margin: 0px;">
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <div class="container-fluid" style="margin: 0px;margin-top: 20px;">
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4" style="margin: 0px;">
+                        <h3 class="text-dark mb-0">Dashboard</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-start-primary py-2">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col me-2">
+                                            <div class="text-uppercase text-primary fw-bold text-xs mb-1"><span
+                                                    style="color: var(--bs-blue);">TOTAL PENDAPATAN</span></div>
+                                            <div class="text-dark fw-bold h5 mb-0"><span>Rp 400,000</span></div>
+                                        </div>
+                                        <div class="col-auto"><i
+                                                class="fas fa-calendar text-black-50 fa-2x text-gray-300"
+                                                style="font-size: 38px;"></i></div>
+                                    </div><small class="text-success"><i
+                                            class="fas fa-arrow-circle-up"></i>&nbsp;10%</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-start-success py-2">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col me-2">
+                                            <div class="text-uppercase text-success fw-bold text-xs mb-1"><span
+                                                    style="color: var(--bs-primary);">Total Transaksi</span></div>
+                                            <div class="text-dark fw-bold h5 mb-0"><span>120 Transaksi</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-shopping-basket fa-2x text-gray-300"
+                                                style="font-size: 38px;"></i></div>
+                                    </div><small class="text-danger"><i
+                                            class="fas fa-arrow-circle-down text-danger"></i>&nbsp;10%</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-3 col-md-6 mb-4">
+                            <div class="card shadow border-start-success py-2">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col me-2">
+                                            <div class="text-uppercase text-success fw-bold text-xs mb-1"><span
+                                                    style="color: var(--bs-blue);">TOTAL PROFIT</span></div>
+                                            <div class="text-dark fw-bold h5 mb-0"><span>Rp 250,000</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-dollar-sign fa-2x text-gray-300"
+                                                style="font-size: 38px;"></i></div>
+                                    </div><small class="text-danger"><i
+                                            class="fas fa-arrow-circle-down text-danger"></i>&nbsp;10%</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-start-success py-2">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col me-2">
+                                            <div class="text-uppercase text-success fw-bold text-xs mb-1"><span
+                                                    style="color: var(--bs-blue);">Total CUSTOMER</span></div>
+                                            <div class="text-dark fw-bold h5 mb-0"><span>210 Customer</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fa-regular fa-circle-user" style="font-size: 38px;"></i></div>
+                                    </div><small class="text-success"><i
+                                            class="fas fa-arrow-circle-down text-success"></i>&nbsp;5</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Start: Chart -->
+                    <div class="row">
+                        <div class="col-md-6 mt-5">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-primary fw-bold m-0">TOTAL PENDAPATAN</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div id="chart"></div>
+                                    <div id="chart3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-5">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-primary fw-bold m-0">TOTAL TRANSAKSI</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div id="chart2"></div>
+                                    <div id="chart4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <!-- End: Chart -->
+                    <div class="row mt-5">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-primary fw-bold m-0">TOTAL TRANSAKSI TIAP MENU</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                                <div id="chart5"></div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div>
+                                                <div id="chart6"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-auto">
+                                                <div id="chart7" style = "margin-left: 30px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-primary fw-bold m-0">PENDAPATAN TIAP MENU</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                                <div id="chart8"></div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div>
+                                                <div id="chart9"></div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="/assets/js/script.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script>
+        var options = {
+            series: [{
+                name: 'Pendapatan',
+                data: [10000, 20000, 30000, 40000,90000, 100000, 110000, 50000, 60000, 70000, 80000,  120000]
+            }],
+            chart: {
+                height: 350,
+                type: 'area',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'smooth'
+            },
+            fill : {
+                type : 'gradient',
+                gradient : {
+                    shadeIntensity : 1,
+                    opacityFrom : 0.7,
+                    opacityTo : 0.9,
+                    stops : [0, 100]
+                }
+            },
+            xaxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'],
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+
+        var options2 = {
+            series: [{
+                name: 'Transaksi',
+                data: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200]
+            }],
+            chart: {
+                height: 350,
+                type: 'area',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'smooth'
+            },
+            fill : {
+                type : 'gradient',
+                gradient : {
+                    shadeIntensity : 1,
+                    opacityFrom : 0.7,
+                    opacityTo : 0.9,
+                    stops : [0, 100]
+                }
+            },
+            xaxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'],
+            }
+        };
+
+        var chart2 = new ApexCharts(document.querySelector("#chart2"), options2);
+        chart2.render();
+
+        // chart 3 barchart 7 hari pendapatan
+        var options3 = {
+            series: [{
+                name: 'Pendapatan',
+                data: [10000, 20000, 30000, 40000,90000, 100000, 110000]
+            }],
+            chart: {
+                height: 350,
+                type: 'bar',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: true
+            },
+           
+            
+            xaxis: {
+                categories: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'],
+            }
+        };
+
+        var chart3 = new ApexCharts(document.querySelector("#chart3"), options3);
+        chart3.render();
+
+        // chart 4 bar chat transaksi 
+        var options4 = {
+            series: [{
+                name: 'Transaksi',
+                data: [100, 200, 300, 400, 500, 600, 700]
+            }],
+            chart: {
+                height: 350,
+                type: 'bar',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: true
+            },
+           
+            
+            xaxis: {
+                categories: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'],
+            }
+        };
+
+        var chart4 = new ApexCharts(document.querySelector("#chart4"), options4);
+        chart4.render();
+
+        var options5 = {
+        series: [
+          {
+            name: "Laki-Laki",
+            data: [44, 55, 41, 37],
+          },
+          {
+            name: "Perempuan",
+            data: [25, 12, 19, 32],
+          },
+        ],
+        chart: {
+          type: "bar",
+          height: 350,
+          stacked: true,
+        },
+        plotOptions: {
+          bar: {
+            horizontal: true,
+            dataLabels: {
+              total: {
+                enabled: true,
+                offsetX: 0,
+                style: {
+                  fontSize: "13px",
+                  fontWeight: 900,
+                },
+              },
+            },
+          },
+        },
+        stroke: {
+          width: 1,
+          colors: ["#fff"],
+        },
+        xaxis: {
+          categories: [
+            "Cheese Burger",
+            "Beef Burger",
+            "Chicken Burger",
+            "Double Cheese Burger",
+          ],
+          
+        },
+        fill: {
+          opacity: 1,
+        },
+        legend: {
+          position: "top",
+          horizontalAlign: "left",
+          offsetX: 40,
+        },
+      };
+
+      var chart5 = new ApexCharts(document.querySelector("#chart5"), options5);
+      chart5.render();
+
+      var options6 = {
+        series: [
+          {
+            name: "Laki-Laki",
+            data: [11, 10, 22],
+          },
+          {
+            name: "Perempuan",
+            data: [12, 22, 19],
+          },
+        ],
+        chart: {
+          type: "bar",
+          height: 350,
+          stacked: true,
+        },
+        plotOptions: {
+          bar: {
+            horizontal: true,
+            dataLabels: {
+              total: {
+                enabled: true,
+                offsetX: 0,
+                style: {
+                  fontSize: "13px",
+                  fontWeight: 900,
+                },
+              },
+            },
+          },
+        },
+        stroke: {
+          width: 1,
+          colors: ["#fff"],
+        },
+        xaxis: {
+          categories: [
+            "Mineral Water",
+            "Coca Cola",
+            "Coffee",
+          ],
+          
+        },
+        fill: {
+          opacity: 1,
+        },
+        legend: {
+          position: "top",
+          horizontalAlign: "left",
+          offsetX: 40,
+        },
+      };
+
+      var chart6 = new ApexCharts(document.querySelector("#chart6"), options6);
+      chart6.render();
+
+      // chart 7 donut chart 
+      var options7 = {
+        series: [120, 70],
+        chart: {
+          height: 350,
+          type: "donut",
+        },
+    
+        labels: ["Laki-Laki", "Perempuan"],
+        legend: {
+          position: "bottom",
+          horizontalAlign: "center",
+        },
+      };
+
+      var chart7 = new ApexCharts(document.querySelector("#chart7"), options7);
+      chart7.render();
+
+      var options8 = {
+        series: [
+          {
+            name: "Penjualan",
+            data: [30, 40, 35, 50, 49, 60, 70],
+          },
+        ],
+        chart: {
+          height: 400,
+          type: "bar",
+        },
+        xaxis: {
+          categories: [
+            "Cheese Burger",
+            "Beef Burger",
+            "Chicken Burger",
+            "Double Cheese Burger",
+            "Mineral Water",
+            "Coca Cola",
+            "Coffee",
+          ],
+        },
+        yaxis: {
+          title: {
+            text: "Jumlah",
+          },
+        },
+      };
+
+      var chart8 = new ApexCharts(document.querySelector("#chart8"), options8);
+      chart8.render();
+
+
+      var options9 = {
+        series: [120, 70],
+        chart: {
+          height: 350,
+          type: "donut",
+        },
+        labels: ["Laki-Laki", "Perempuan"],
+        legend: {
+          position: "bottom",
+          horizontalAlign: "center",
+          
+        },
+      };
+
+      var chart9 = new ApexCharts(document.querySelector("#chart9"), options9);
+      chart9.render();
+
+    </script>
+</body>
+
+</html>

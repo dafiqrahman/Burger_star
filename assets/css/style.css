@@ -1,0 +1,7 @@
+.navbar li a {
+    margin-right : 20px !important
+}
+
+.navbar li a:hover{
+    color : var(--bs-primary) !important;
+}
