@@ -85,13 +85,13 @@
                                     <div class="row align-items-center no-gutters">
                                         <div class="col me-2">
                                             <div class="text-uppercase text-success fw-bold text-xs mb-1"><span
-                                                    style="color: var(--bs-blue);">TOTAL PROFIT</span></div>
-                                            <div class="text-dark fw-bold h5 mb-0"><span>Rp 250,000</span></div>
+                                                    style="color: var(--bs-blue);">Avg. PENDAPATAN</span></div>
+                                            <div class="text-dark fw-bold h5 mb-0"><span>Rp 25,000</span></div>
                                         </div>
                                         <div class="col-auto"><i class="fas fa-dollar-sign fa-2x text-gray-300"
                                                 style="font-size: 38px;"></i></div>
                                     </div><small class="text-danger"><i
-                                            class="fas fa-arrow-circle-down text-danger"></i>&nbsp;10%</small>
+                                            class="fas fa-arrow-circle-down text-danger"></i> 8.5%</small>
                                 </div>
                             </div>
                         </div>
@@ -144,16 +144,16 @@
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-md-6">
                                                 <div id="chart5"></div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-6">
                                             <div>
                                                 <div id="chart6"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-auto">
-                                                <div id="chart7" style = "margin-left: 30px;"></div>
+                                                <div id="chart7" style = "margin-left: 0px;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -429,29 +429,18 @@
       chart6.render();
 
       // chart 7 donut chart 
-      var options7 = {
-        series: [120, 70],
-        chart: {
-          height: 350,
-          type: "donut",
-        },
-    
-        labels: ["Laki-Laki", "Perempuan"],
-        legend: {
-          position: "bottom",
-          horizontalAlign: "center",
-        },
-      };
-
-      var chart7 = new ApexCharts(document.querySelector("#chart7"), options7);
-      chart7.render();
+      
 
       var options8 = {
         series: [
           {
-            name: "Penjualan",
+            name: "Laki-Laki",
             data: [30, 40, 35, 50, 49, 60, 70],
           },
+            {
+                name: "Perempuan",
+                data: [20, 30, 21, 35, 41, 51, 35],
+            },
         ],
         chart: {
           height: 400,
@@ -470,7 +459,7 @@
         },
         yaxis: {
           title: {
-            text: "Jumlah",
+            text: "Pendapatan",
           },
         },
       };
