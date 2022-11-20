@@ -1,5 +1,5 @@
 # Burger_star
-TUGAS SIM 
+TUGAS Sistem Informasi Manajemen 
 Todo's : 
 1. Tambah Halaman Edit Menu 
 2. Tambah Halaman Daftar Customer
